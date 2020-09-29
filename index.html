@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="lt">
+    <head>
+        <title>Table</title>
+        <meta charset="UTF-8">        
+    </head> 
+    <body>
+        <form>
+            <fieldset>
+                <legend>HTML FORMS</legend>
+                <p>Name:</p> 
+                <input type="text" name="name" placeholder="Your name">
+                <p>Surname:</p> 
+                <input type="text" name="surname" placeholder="Your surname">             
+                <p>Email:</p> 
+                <input type="text" name="email" placeholder="Your email">
+                <p>Mobile:</p> 
+                <input type="text" name="mobile" placeholder=" +370">
+                <p>Age:</p> 
+                <input type="text" name="age"> <br>
+                <br>
+                <label for="food">Favourite food:</label> <br>                
+                <select id="food" name="food">
+                    <option value="Meat">Meat</option>
+                    <option value="Pasta">Pasta</option>
+                    <option value="Pizza">Pizza</option>
+                    <option value="Sandwitch">Sandwitch</option>
+                    <option value="Kebab">Kebab</option>
+                </select><br>
+                <p>Gender:</p> 
+                <label for="male">Male</label><br>                
+                <input type="radio" id="male" name="gender" value="male"> <br>
+                <label for="female">Female</label><br> 
+                <input type="radio" id="female" name="gender" value="female">
+                <br>
+                <br>                
+                <input type="file" id="file" name="file" accept="image/png, image/jpeg">                
+                <br>
+                <br>
+                <label for="date">Date:</label> <br>
+                <input type="date" id="date" name="birthday">
+                <input type="submit">
+                <br>
+                <br>
+                <p>Enter your message:</p>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message..."></textarea> <br>
+                <button type="reset">reset</button>
+                <button type="submit">submit</button>
+            </fieldset>
+        </form>
+    </body>    
+</html>
